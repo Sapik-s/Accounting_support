@@ -87,14 +87,14 @@ $(document).ready(function(){
 
 	// Отправка писем на почту
 	// Обращение ко всем формам $('form').submit(function(e)
-	$('form, form-2').submit(function(e) {
+	$('form, form-2, application').submit(function(e) {
 		// Отменяем стандартное поведение браузера e.preventDefault();
 		e.preventDefault();
 		$.ajax({
 			// Указывем что будем отдавать данные type: "POST"
 			type: "POST",
 			// То, куда мы будем отправлять наш запрос url: "repository/Heart_Rate_Monitor/mailer"
-			url: "http://localhost:8888/",
+			url: "mailer/smart.php",
 			// Данные которые хочу отправить на сервер data: $(this).serialize()
 			data: $(this).serialize()
 		}).done(function() {
