@@ -26,11 +26,62 @@
         text-align: center
     &__img
         @include img
-        min-width: 478px
+        max-width: 478px
         height: 700px
         top: 17%
+        z-index: 10
     &__block-text-left-v
         padding: 70px 0 116px 0
         width: 395px
     &__block-text-right-v
         padding: 125px 0 95px 0
+    &__colling
+        position: absolute
+        top: 60px
+        left: 63%
+        transform: translateX(-63%)
+    &__arrow
+        z-index: -9
+        position: absolute
+        top: 100px
+        left: 44%
+        transform: translateX(-44%)
+        opacity: 0.5
+        transform: rotate(10.41deg)
+    
+.coop__img
+    &:hover
+        animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation
+
+@keyframes trambling-animation 
+    0%, 50%, 100% 
+        transform: rotate(0deg)
+    10%, 30% 
+        transform: rotate(-10deg)
+    20%, 40% 
+        transform: rotate(10deg)
+.coop__img
+    &:hover
+        -webkit-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation
+        -moz-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation
+        -o-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation
+        animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation
+@keyframes trambling-animation
+   0%, 50%, 100%
+     transform: rotate(0deg)
+     -webkit-transform: rotate(0deg)
+     -moz-transform: rotate(0deg)
+     -o-transform: rotate(0deg)
+     -ms-transform: rotate(0deg)
+   10%, 30%
+     transform: rotate(-10deg)
+     -webkit-transform: rotate(-10deg)
+     -moz-transform: rotate(-10deg)
+     -o-transform: rotate(-10deg)
+     -ms-transform: rotate(-10deg)
+   20%, 40%
+     transform: rotate(10deg)
+     -webkit-transform: rotate(10deg)
+     -moz-transform: rotate(10deg)
+     -o-transform: rotate(10deg)
+     -ms-transform: rotate(10deg)
