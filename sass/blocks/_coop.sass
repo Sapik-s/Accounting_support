@@ -1,0 +1,36 @@
+.coop
+    position: relative
+    height: 1700px
+    &__wrapper-all
+        display: flex
+        justify-content: flex-end
+        margin-top: 112px
+        // padding: 0 250px 0 300px
+    &__wrapper-right
+        display: flex
+        flex-direction: column
+    &__wrapper-left
+        width: 100%
+        margin-left: 180px
+    &__block-text-left
+        display: flex
+        flex-direction: column
+        justify-content: start
+        width: 395px
+        margin-left: 115px
+    &__block-text-right
+        margin-right: 275px
+        width: 395px
+    &__text
+        @include style-text
+        text-align: center
+    &__img
+        @include img
+        min-width: 478px
+        height: 700px
+        top: 17%
+    &__block-text-left-v
+        padding: 70px 0 116px 0
+        width: 395px
+    &__block-text-right-v
+        padding: 125px 0 95px 0

@@ -1,0 +1,81 @@
+.cert
+    background: url('../img/background/Mask Group.png') center (center/cover) no-repeat
+    background-color: rgba(21, 79, 155, 0.69)
+    background-blend-mode: overlay
+    height: 1400px
+    width: 100%
+    position: relative
+    &__slider, .reviews__slider
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        margin-top: 73px
+        div
+            outline: none
+            width: 1207px
+    &__img
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+        width: 1057px
+        height: 756px
+        border-radius: 20px
+.slick-prev, .slick-arrow
+    margin: 0 20px 0 20px
+    border: none
+    width: 101px
+    height: 101px
+    border: 1px solid #FFFFFF
+    border-radius: 100%
+    background: none
+    cursor: pointer
+    outline: none
+    font-size: 0
+    &:hover
+        background-color: #FFFFFF
+    
+.slick-prev,
+    background: url('../icons/arrow-left.png') center (center/cover) no-repeat
+    background-size: 45px
+    background-position-x: 32px
+    &:hover
+        background: url('../icons/arrow-left-c.png') center (center/cover) no-repeat
+        background-size: 45px
+        background-position-x: 32px
+.slick-next
+    background: url('../icons/arrow-right.png') center (center/cover) no-repeat
+    background-size: 45px
+    background-position-x: 22px
+    &:hover
+        background: url('../icons/arrow-right-c.png') center (center/cover) no-repeat
+        background-size: 45px
+        background-position-x: 22px
+.slick-dots
+    display: flex
+    justify-content: center
+    text-align: center
+    position: absolute
+    bottom: -80px
+    left: 39.5%
+    transform: translateX(37%)
+    li
+        transition: 0.5s
+        list-style: none
+        width: 20px
+        height: 20px
+        border: 1px solid #ffffff
+        background-color: rgba(255, 255, 255, 0)
+        border-radius: 100%
+        outline: none
+        margin: 0 10px 0 10px
+    .slick-active
+        background-color: rgb(255, 255, 255)
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02, #slick-slide-control03, #slick-slide-control04, #slick-slide-control05, #slick-slide-control06, #slick-slide-control10, #slick-slide-control11, #slick-slide-control12, #slick-slide-control13, #slick-slide-control14, #slick-slide-control15
+    display: none
+.slick-prev, .slick-arrow
+    transition: 0.4s
+    &:hover
+        background-color: #FFFFFF

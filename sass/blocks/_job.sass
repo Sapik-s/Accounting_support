@@ -1,0 +1,35 @@
+.container-job
+    display: block
+    max-width: 1594px
+    margin: 0 auto
+.job
+    position: relative
+    height: 1072px
+    &__wrapper-left, .job__wrapper-right, .job__wrapper-center, .job__wrapper-left-2, .job__wrapper-right-2
+        width: 358px
+        text-align: center
+    &__wrapper-all
+        margin-top: 200px
+    &__text
+        @include style-text
+        padding-top: 34px
+    &__wrapper-up
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__wrapper-down
+        display: flex
+        justify-content: space-between
+        margin: 180px 120px 0 120px
+    &__wrapper-center
+        margin: 0 auto
+    &__wrapper-left-2
+        margin-top: -21px
+    &__wrapper-right
+    &__wrapper-right-2
+    &__img
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        margin-top: 140px

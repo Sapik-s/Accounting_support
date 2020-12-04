@@ -1,0 +1,52 @@
+// Стилизация навигационного меню
+.nav
+    display: block
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 116px
+    background:rgba(100, 100, 100, 1)
+    height: 80px
+    top: -80px
+    transition: top 1s
+    text-align: center
+.nav.fixed
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0
+    box-shadow: 0 0 5px 0 #000
+    z-index: 99999999
+    width: 100%
+    position: fixed
+    top: 0
+.nav.removeclass.fixed
+    transition: top 1s
+.navr.fixed ~ .wrap
+    margin-top: 80px
+.nav
+    &__list
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        font-style: normal
+        font-weight: bold
+        font-size: 23px
+        line-height: 28px
+    a
+        display: flex
+        text-decoration: none
+        padding-left: 78px
+    li
+        color: #333333
+    // Стилизация телефонов в навигационном меню
+    &__wrapper-phone
+        display: flex
+        align-items: center
+    &__wrapper-phone-column
+        padding: 0 64px 0 50px
+    &__phone
+        font-style: normal
+        font-weight: bold
+        font-size: 20px
+        line-height: 23px
+        color: #333333
+    &__logo
+        cursor: pointer
