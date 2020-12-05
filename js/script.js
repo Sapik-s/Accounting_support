@@ -91,6 +91,14 @@ $(document).ready(function(){
 		$('.modal-forms__overlay, #application, #thanks').fadeOut('slow');
 	});
 
+	var ua = navigator.userAgent;
+	var isAndroid = /Android/i.test(ua);
+	var isChrome = /Chrome/i.test(ua);
+
+	// Fix masking on Chrome for mobile devices
+	if (isAndroid && isChrome) {
+		$('.price_input').attr('type','tel');
+	}     
 	$('input[name=phone]').mask("+7 (999) 999-99-99");
 
 	// Отправка писем на почту
