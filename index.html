@@ -17,13 +17,14 @@
     <!-- Первая секция с навигационным меню -->
     <section id="up" class="main">
         <nav id="nav" class="nav">
+            <!-- Логотип -->
             <img src="img/Logo.png" alt="" class="nav__logo">
             <div class="nav__wrapper-nav">
                 <ul class="nav__list">
-                    <a href="#"><li>Услуги</li></a>
+                    <a href="#services"><li>Услуги</li></a>
                     <a href="#"><li>Стоимость</li></a>
                     <a href="#"><li>Клиенты</li></a>
-                    <a href="#"><li>Контакты</li></a>
+                    <a href="#footer"><li>Контакты</li></a>
                 </ul>
             </div>
             <div class="nav__wrapper-phone">
@@ -35,6 +36,7 @@
                 <button data-modal="application" class="nav-button">Заказать звонок</button>
             </div>
         </nav>
+        <!-- Задний фон картинка -->
         <img src="img/woman/main-woman-bg.jpg" alt="Задний фон, девушка" class="main__background">
         <div class="container">
             <div class="main__wrapper-all">
@@ -58,7 +60,7 @@
         </div> 
     </section>
     <!-- Секция "Полный спектр бухгалтерских услуг" -->
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <h2 class="services-title">ПОЛНЫЙ СПЕКТР <span>БУХГАЛТЕРСКИХ УСЛУГ</span></h2>
             <div class="services__wrapper-all">
@@ -261,8 +263,10 @@
         </div>
     </section>
     <!-- Подвал сайта -->
-    <footer class="footer">
+    <footer id="footer" class="footer">
+        <!-- Карта сделать на конструктое для своего местоположения https://yandex.ru/map-constructor/   -->
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A913ed5233e23120c711a99b0aa142de73eed1eb6a1982e5e5e1f5bf17b2a89d0&amp;source=constructor" width="100%" height="750" frameborder="0"></iframe>
+        <!-- ------------------------------------------------------------------------------------------- -->
         <div class="container">
             <div class="footer__wrapper-block-logo">
                 <div class="footer__wrapper-block">

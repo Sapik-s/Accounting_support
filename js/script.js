@@ -1,13 +1,21 @@
 $(document).ready(function(){
-    $('.cert__slider, .reviews__slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3500,
-        arrows: true,
+	// Slick слайдер
+	$('.cert__slider, .reviews__slider').slick({
+		// сколько слайдеров показывает
+		slidesToShow: 1,
+		// сколько слайдеров листает
+		slidesToScroll: 1,
+		// автоматическая прокрутка
+		autoplay: true,
+		// скорость прокрутки
+		autoplaySpeed: 3500,
+		// включаем стрелки
+		arrows: true,
+		// включить точки
         dots: true,
     });
 
+	// Фиксация навигационного меню
     $(window).scroll(function(){
         if ($(this).scrollTop() > 1000) {
             $('.nav').addClass('fixed');
