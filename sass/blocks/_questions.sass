@@ -1,13 +1,19 @@
 .questions
     height: 1000px
+    max-width: 1920px
     &__wrapper-img-form
         display: flex
         align-items: center
     &__img
-        margin-top: -100px
+        margin-top: 100px
         max-width: 623px
+        width: 632px
+        height: 760px
     &__form
+        position: relative
+        z-index: 99
     &__form-wrapper
+        position: absolute
         background: #ffffff
         border-radius: 15px
         display: flex
@@ -15,9 +21,16 @@
         align-items: center
         flex-direction: column
         width: 616px
-        height: 721px
-        margin: 180px 0 0 103px
-        padding: 0 102px 71px 102px
+        height: 821px
+        margin: 300px 0 0 103px
+        top: -580px
+        box-shadow: -5px -15px 70px rgba(255, 255, 255, 0.35), 5px 15px 70px rgba(0, 101, 177, 0.2)
+    &__bg
+        position: absolute
+        left: 50px
+        top: -230px
+        padding-top: 230px
+        z-index: -999999999999999999
     // Заголовки в форме
     &__form-application
         margin: 0 0 32px 0
@@ -53,6 +66,9 @@
         display: flex
         align-items: center
         color: #333333
+#send
+    width: 280px
+    height: 73px
 #text, #phone, #name
     color: #000000
     border-color: #b2bcc3
@@ -62,3 +78,10 @@
     flex-wrap: wrap
 .container
     @include container
+#hid
+    position: absolute
+    width: 850px
+    height: 900px
+    overflow: hidden
+    margin-bottom: 420px
+    left: -20px
