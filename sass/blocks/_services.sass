@@ -23,3 +23,76 @@
         @include style-text
     &__img
         @include img
+    @media ( max-width: 1168px )
+        .container
+            position: relative
+            display: block
+            max-width: 630px
+            margin: 0 auto
+        .services__wrapper-all
+            justify-content: space-between
+        div.services__block-text-left, div.services__wrapper-left, div.services__text, div.services__wrapper-right
+            width: 220px
+            line-height: 24px
+        #r1
+        #r2
+            padding-top: 60px
+        #r3
+            padding-top: 5px
+        div.services__text
+            padding-top: 10px
+    @media ( max-width: 992px )
+        .container
+            position: relative
+            display: block
+            max-width: 570px
+            margin: 0 auto
+        .services__wrapper-all
+            justify-content: space-between
+        div.services__block-text-left, div.services__wrapper-left, div.services__text, div.services__wrapper-right, div.services-title-block
+            width: 180px
+            line-height: 24px
+        #r1
+            margin-top: 5px
+        #r2
+            padding-top: 0
+            margin-top: 0
+        #r3
+            padding-top: 0
+            margin-top: 0
+        div.services__text
+            padding-top: 10px
+    @media ( max-width: 992px )
+         div.services__wrapper-left
+            margin-left: 0
+    @media ( max-width: 602px )
+        .container
+            position: relative
+            display: block
+            max-width: 325px
+            margin: 0 auto
+        div.services__block-text-left, div.services__wrapper-left, div.services__text, div.services__wrapper-right, div.services-title-block
+            width: 130px
+            line-height: 24px
+        .services__wrapper-all
+            justify-content: space-between
+    @media ( max-width: 550px )
+        .container
+            position: relative
+            display: block
+            max-width: 370px
+            margin: 0 auto
+        div.services__text
+            font-size: 10px
+            padding-top: 5px
+        div.services-title-block
+            font-size: 12px
+        #r1
+            margin-top: 25px
+        #r2
+            margin-top: -5px
+        #r3
+            padding-top: 0
+            margin-top: 23px
+        h2.services-title
+            font-size: 12px
