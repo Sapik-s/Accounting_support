@@ -184,13 +184,35 @@
     div.cert__slider , .cert .reviews__slider div
         width: 1100px
     button.slick-next, button.slick-arrow
-        height: 70px
+        height: 100px
     button.slick-prev
         background-size: 35px
-        background-position-x: 23px
+        background-position-x: 35px
+        &:hover
+            background-size: 35px
+            background-position-x: 35px
     button.slick-next, .slick-arrow
         background-size: 35px
-        background-position-x: 15px
+        background-position-x: 25px
+        &:hover
+                background-size: 35px
+                background-position-x: 25px
+    div.reviews__wrapper
+        div.cert__slider
+            button.slick-prev
+                background-size: 35px
+                background-position-x: 37px
+                &:hover
+                    background-size: 35px
+                    background-position-x: 37px
+            button.slick-next, .slick-arrow
+                background-size: 35px
+                background-position-x: 25px
+                &:hover
+                        background-size: 35px
+                        background-position-x: 25px
+    div.cert__slider div, .cert, .reviews__slider div
+        width: 740px
     section.cert
         height: 950px
     div.cert__slider
@@ -201,9 +223,14 @@
         width: 450px
         height: 450px
         top: 25px
-    img.reviews__img
-        width: 750px
-        height: 400px
+    div.reviews__img
+        height: 378px
+        top: 25px
+        margin-top: 50px
+    img.reviews__avatar
+        margin: 42px 28px 0 42px
+    div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
+        margin-left: 247px
     section.reviews
         height: 750px
         margin-top: 100px
