@@ -6,7 +6,7 @@ $(document).ready(function(){
 		// сколько слайдеров листает
 		slidesToScroll: 1,
 		// автоматическая прокрутка
-		autoplay: false,
+		autoplay: true,
 		// скорость прокрутки
 		autoplaySpeed: 3500,
 		// включаем стрелки
