@@ -109,6 +109,12 @@
     img.services__img
         left: 33.5%
 @media ( max-width: 1400px )
+    #form
+        button
+            width: 250px
+            height: 70px
+            font-size: 20px
+            margin-top: 30px
     div.reviews__wrapper
         div.cert__slider
             button
@@ -186,31 +192,35 @@
     button.slick-next, button.slick-arrow
         height: 100px
     button.slick-prev
+        width: 105px
         background-size: 35px
-        background-position-x: 35px
+        background-position-x: 37px
         &:hover
             background-size: 35px
-            background-position-x: 35px
+            background-position-x: 37px
     button.slick-next, .slick-arrow
+        width: 105px
         background-size: 35px
-        background-position-x: 25px
+        background-position-x: 30px
         &:hover
                 background-size: 35px
-                background-position-x: 25px
+                background-position-x: 30px
     div.reviews__wrapper
         div.cert__slider
             button.slick-prev
+                width: 105px
                 background-size: 35px
                 background-position-x: 37px
                 &:hover
                     background-size: 35px
                     background-position-x: 37px
             button.slick-next, .slick-arrow
+                width: 105px
                 background-size: 35px
-                background-position-x: 25px
+                background-position-x: 30px
                 &:hover
                         background-size: 35px
-                        background-position-x: 25px
+                        background-position-x: 30px
     div.cert__slider div, .cert, .reviews__slider div
         width: 740px
     section.cert
@@ -227,8 +237,23 @@
         height: 378px
         top: 25px
         margin-top: 50px
+    img.reviews__tran
+        width: 180px
+        margin-top: 20px
+    div.reviews__too
+        font-size: 24px
+        margin-top: 14px
+    div.reviews__post
+        font-size: 14px
+        margin-top: 5px
+        line-height: 18px
+    div.reviews__text
+        font-size: 12px
+        margin-top: 20px
+        line-height: 23px
     img.reviews__avatar
-        margin: 42px 28px 0 42px
+        width: 145px
+        margin: 62px 28px 0 50px
     div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
         margin-left: 247px
     section.reviews
@@ -258,7 +283,39 @@
         justify-content: center
     div.services__block-text-right
         width: none
+    #form
+        button
+            width: 250px
+            height: 70px
+            font-size: 20px
+            margin-top: 30px
+    section.reviews    
+        .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+            width: 940px
+    section.cert
+        .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+            width: 940px
 @media ( max-width: 1168px )
+    form#form
+        label#phone-error.error
+            font-size: 14px
+        label#name-error.error
+            font-size: 14px
+        label#text-error.error
+            font-size: 14px
+    form#form-2
+        label#phone-error.error
+            font-size: 13px
+        label#name-error.error
+            font-size: 13px
+        label#text-error.error
+            font-size: 13px
+    #form
+        button
+            width: 250px
+            height: 70px
+            font-size: 20px
+            margin-top: 30px
     div.nav__wrapper-phone-column
         padding: 0
         padding-right: 5px 
@@ -319,12 +376,120 @@
         font-size: 20px
     div.footer__wrapper-block
         width: 470px
+
+    img.reviews__tran
+        width: 165px
+        margin-top: 10px
+    div.reviews__too
+        font-size: 22px
+        margin-top: 9px
+    div.reviews__post
+        font-size: 13px
+        margin-top: 0
+        line-height: 16px
+    div.reviews__text
+        font-size: 10px
+        margin-top: 15px
+        line-height: 19px
+    img.reviews__avatar
+        width: 111px
+        margin: 65px 28px 0 40px
+    div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
+        margin-left: 190px
+    section.reviews
+        height: 750px
+        margin-top: 100px
+        padding-top: 70px
+    div.cert__slider , .cert .reviews__slider div
+        width: 1100px
+    button.slick-next, button.slick-arrow
+        height: 100px
+    button.slick-prev
+        margin-top: 50px
+        width: 90px
+        height: 90px
+        background-size: 30px
+        background-position-x: 32px
+        &:hover
+            background-size: 30px
+            background-position-x: 32px
+    button.slick-next, .slick-arrow
+        margin-top: 50px
+        width: 90px
+        height: 90px
+        background-size: 30px
+        background-position-x: 28px
+        &:hover
+            background-size: 30px
+            background-position-x: 28px
+    div.reviews__wrapper
+        div.cert__slider
+            button.slick-prev
+                margin-top: 50px
+                width: 90px
+                height: 90px
+                background-size: 30px
+                background-position-x: 32px
+                &:hover
+                    background-size: 30px
+                    background-position-x: 32px
+            button.slick-next, .slick-arrow
+                width: 90px
+                height: 90px
+                background-size: 30px
+                background-position-x: 28px
+                &:hover
+                        background-size: 30px
+                        background-position-x: 28px
+    div.cert__slider div, .cert, .reviews__slider div
+        width: 600px
+    div.reviews__img
+        height: 350px
+    .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+        width:  1000px
+    section.reviews    
+        .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+            width: 940px
+    section.cert
+        .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+            width: 940px
+    div#hid.questions__hidden
+        width: 510px
 @media ( max-width: 992px )
+    .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+        width:  761px
+    form#form
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
+    form#form-2
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
+    #form
+        button
+            width: 200px
+            height: 50px
+            font-size: 16px
+            margin-top: 60px
+    button.slick-prev
+        visibility: hidden
+        &:hover
+            visibility: hidden
+    button.slick-next, .slick-arrow
+        visibility: hidden
+        &:hover
+            visibility: hidden
     section.cert
         div.container
-            div.cert__slider
+            button.cert__slider, .slick-prev, .slick-arrow
                 .slick-next:hover
-
                 button
                     visibility: hidden
     div.reviews__wrapper 
@@ -468,7 +633,29 @@
     img.footer__logo
         width: 207px
         padding-right: 41px
+    div#hid.questions__hidden
+        width: 425px
+    section.cert .cert__slider, section.cert .slick-initialized, section.cert .slick-slider, section.cert .slick-dotted
+        width: 730px
+    section.reviews .cert__slider, section.reviews .slick-initialized, section.reviews .slick-slider, section.reviews .slick-dotted
+        width: 742px
+    div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
+        margin-left: 173px
 @media ( max-width: 740px )
+    form#form
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
+    form#form-2
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
     ul.nav__list
         a
             font-size: 10px
@@ -653,7 +840,60 @@
         font-size: 18px
         line-height: 25px
         margin-bottom: 0
+    
+    img.reviews__tran
+        width: 125px
+        margin-top: -10px
+    div.reviews__too
+        width: 280px
+        font-size: 17px
+        margin-top: 2px
+    div.reviews__post
+        width: 280px
+        font-size: 10px
+        margin-top: 0
+        line-height: 13px
+    div.reviews__text
+        width: 280px
+        font-size: 8px
+        margin-top: 10px
+        line-height: 19px
+    img.reviews__avatar
+        width: 80px
+        margin: 50px 28px 0 20px
+    div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
+        margin-left: 120px
+    section.reviews
+        height: 500px
+        margin-top: 100px
+        padding-top: 20px
+    div.reviews__wrapper
+        div.cert__slider , .cert .reviews__slider div
+            width: 600px
+    div.reviews__img
+        height: 290px
+    section.cert
+        div.cert__slider
+            width: 600px
+    div.reviews__img
+        margin-top: 20px
+    #form
+        button
+            width: 200px
+            height: 50px
+            font-size: 16px
+            margin-top: 60px
+    .services__wrapper-right
+        .services__block-text-right, .services-title-block, .services__text
+            width: 150px
 @media ( max-width: 550px )
+    .cert__slider, .slick-initialized, .slick-slider, .slick-dotted
+        width: 500px
+    #rev-post
+        font-size: 6px
+    #form
+        button
+            margin-top: 10px
     ul.nav__list
         padding-left: 2px
         a
@@ -895,4 +1135,81 @@
         padding-left: 13px
     footer.footer
         height: 529px
-        
+    form#form
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
+    form#form-2
+        label#phone-error.error
+            font-size: 7px
+        label#name-error.error
+            font-size: 7px
+        label#text-error.error
+            font-size: 7px
+    section.reviews
+        height: 480px
+@media ( max-width: 450px )
+    div.reviews__wrapper div.cert__slider, div.reviews__wrapper .cert .reviews__slider div
+        width: 320px
+        // margin-left: 25px
+    .reviews__img, .slick-slide, .slick-current, .slick-active
+        width: 210px
+    div.reviews__img
+        max-height: 220px
+        width: 200px
+        margin-top: 0
+    section.reviews
+        height: 350px
+        padding-top: 0
+    img.reviews__tran
+        width: 80px
+        margin-top: -30px
+    div.reviews__too
+        width: 280px
+        font-size: 10px
+        margin-top: -10px
+    div.reviews__post
+        width: 100px
+        font-size: 6px
+        margin-top: -15px
+        line-height: 8px
+    div.reviews__text
+        width: 130px
+        font-size: 6px
+        margin-top: 5px
+        line-height: 10px
+    #rev-text, #rev-post, #rev-post
+        width: 130px
+    img.reviews__avatar
+        width: 35px
+        margin: 20px 28px 0 5px
+    div.reviews__elem, .reviews .reviews__elem2, .reviews .reviews__elem3, .reviews .reviews__elem4, .reviews .reviews__elem5
+        margin-left: 50px
+    ul.slick-dots
+        bottom: -40px
+    h2.reviews-title
+        margin-top: 25px
+        font-size: 13px
+    form.form__form
+        #send
+            width: 202px
+            height: 50px
+            font-size: 12px
+    
+    form#form
+        label#phone-error.error
+            font-size: 9px
+        label#name-error.error
+            font-size: 9px
+        label#text-error.error
+            font-size: 9px
+    form#form-2
+        label#phone-error.error
+            font-size: 7px
+        label#name-error.error
+            font-size: 7px
+        label#text-error.error
+            font-size: 7px
