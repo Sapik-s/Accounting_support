@@ -1310,7 +1310,7 @@
     div.coop__text
         line-height: 21px
     section.coop
-        height: 1320px
+        height: 1620px
     section.job
         height: 1000px
     div.job__wrapper-up
@@ -1384,12 +1384,77 @@
         width: 375px
     div.job__wrapper-left, .job .job__wrapper-right, .job .job__wrapper-center, .job .job__wrapper-left-2, .job .job__wrapper-right-2
         width: 375px
-    // img.coop__img, img.coop__colling, img.coop__arrow
-    //     display: none
-    // img.job__img
-    //     display: none
+
+    div.form
+        margin-top: 320px
+
+    img.coop__img, img.coop__colling, img.coop__arrow
+        display: block
+        top: 63%
+        left: 50%
+        transform: translateX(-50%)
+    img.coop__arrow
+        width: 50px
+        height: 50px
+        top: 61%
+    img.coop__colling
+        width: 50px
+        top: 60%
+        left: 60%
+        right: 40%
+    img.job__img
+        display: block
+        width: 250px
+        height: 250px
+        top: 60%
+
+    section.services
+        height: 1100px
+        div.services__wrapper-all
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            text-align: center    
+        div.services, div.services__text
+            text-align: center
+            width: 180px
+            line-height: 17px
+            margin-top: 0
+            margin-left: 0
+        div.services__block-text-right:nth-child(2)
+            padding-top: 10px
+        div.services__block-text-right:nth-child(3)
+            padding-top: 0
+        button.services-button
+            margin-top: 60px
+        div.services__wrapper-left, div.services__block-text-left
+            margin-left: 0
+        div.services__block-text-left, div.services__wrapper-left,  div.services__text, div.services__wrapper-right, div.services-title-block
+            margin-left: 0
     @media ( max-width: 320px )
         div.job__wrapper-down div.job__wrapper-right-2
             width: 320px
         div.job__wrapper-left, .job .job__wrapper-right, .job .job__wrapper-center, .job .job__wrapper-left-2, .job .job__wrapper-right-2
             width: 320px
+    section.services    
+        div.services__wrapper-all
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            text-align: center    
+        div.services, div.services__text
+            text-align: center
+            width: 130px
+            line-height: 17px
+            margin-top: 0
+            margin-left: 0
+        div.services__block-text-right:nth-child(2)
+            padding-top: 10px
+        div.services__block-text-right:nth-child(3)
+            padding-top: 0
+        button.services-button
+            margin-top: 60px
+        div.services__wrapper-left, div.services__block-text-left
+            margin-left: 0
+        div.services__block-text-left, div.services__wrapper-left,  div.services__text, div.services__wrapper-right, div.services-title-block
+            margin-left: 0
